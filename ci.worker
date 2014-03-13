@@ -1,0 +1,12 @@
+remote
+
+runtime "python"
+
+exec "ci.py"
+
+file "iron.json"
+file "config.yml"
+
+pip "requests"
+pip "iron-worker"
+pip "pyyaml"

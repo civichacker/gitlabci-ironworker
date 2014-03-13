@@ -1,0 +1,16 @@
+remote
+
+name "runner"
+
+runtime "python"
+
+exec "runner.py"
+
+file "config.yml"
+file "iron.json"
+
+pip "requests"
+pip "pexpect"
+pip "gitpython"
+pip "fabric"
+pip "pyyaml"
