@@ -1,0 +1,6 @@
+ci:
+    url: https://yourci.home.com/
+runner:
+    url: https://yourgitlab/
+    private_token: "gitlabapiprivatetoken"
+    token: "runnertoken"
